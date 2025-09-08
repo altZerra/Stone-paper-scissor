@@ -1,0 +1,73 @@
+
+body{
+  background-color: rgb(243, 187, 221);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.css-para{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.css-img-rock{
+  height: 70px;
+
+}.css-img-paper{
+  height: 70px;
+
+}
+.css-img-scissor{
+  height: 70px;
+}
+.css-move-button{
+  border: 3px solid white;
+  border-radius: 70px;
+  height: 120px;
+  width: 120px;
+  margin: 5px;
+  cursor: pointer;
+ 
+}
+.container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+
+}
+.final-result{
+  font-size: large;
+  font-weight: bolder;
+}
+.score{
+font-weight: bolder;
+}
+.score-card{
+font-weight: bolder;
+}
+.css-reset-button{
+border: 3px solid white;
+  border-radius: 70px;
+  height: 120px;
+  width: 120px;
+  margin: 5px;
+  cursor: pointer;
+  
+  font-size: large;
+  font-weight: bolder;
+  
+ 
+
+
+}
+.css-div-result{
+text-align: center;
+}
+.css-name{
+  font-size: large;
+  color: purple;
+  text-align: center;
+  margin: 20px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

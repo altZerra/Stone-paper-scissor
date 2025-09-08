@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="css-rock-paper-scissor.css">
+<body>
+  <p class="css-para">Rock Paper Scissor </p>
+  <p class="css-name">AltZerra</p>
+  <div class="container">
+  <button 
+      onclick="  
+      computerMove=pickcomputerMove();
+      playGame('rock');
+      
+      " class="css-move-button">
+      <img src="rock.png" alt="" class="css-img-rock"></button>
+  <button 
+  onclick="
+  computerMove=pickcomputerMove();
+ 
+  playGame('paper');
+  
+  " class="css-move-button" >
+  <img src="paper.png" alt="" class="css-img-paper"></button>
+  <button onclick="
+ computerMove=pickcomputerMove();
+      
+     playGame('scissor');
+  
+  "class="css-move-button"
+  
+  > 
+  <img src="scissor.png" alt="" class="css-img-scissor"></button>
+</div>
+<div class="css-div-result">
+  <p class="final-result">You....</p>
+  <p class="score">You 
+    Computer.
+  <p class="score-card"></p>
+  <button onclick=" 
+  score.Wins=0;
+  score.Losses=0;
+  score.Ties=0;
+  localStorage.removeItem(`score`);
+  
+  scoredisp();
+  " class="css-reset-button">Reset button</button>
+  </div>
+  <script src="js-rock-paper-scissor.js">
+</script>
+</body>
+</html>
